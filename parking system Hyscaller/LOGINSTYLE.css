@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #12f3ef5c;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fade-in 1s ease-in-out;
+    left: 200px;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1565c0;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1976d2;
+  }
+  
+  input[name="login_email"],
+  input[name="login_password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #1976d2;
+  }
+  
+  button[name="login"],
+  button#googleLogin {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover,
+  button#googleLogin:hover {
+    background-color: #1565c0;
+  }
+  
+  .social-login {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .social-login p {
+    margin-bottom: 5px;
+  }
+  
+  .social-login button {
+    margin-top: 5px;
+    background-color: #4285f4;
+  }
+  
+  .social-login button:hover {
+    background-color: #357ae8;
+  }
+  
+  a {
+    color: #1976d2;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #1565c0;
+  }
+  .desktop-1-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 401px;
+    height: 1024px;
+    object-fit: cover;
+  }
+
+  #example2 {
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+  }

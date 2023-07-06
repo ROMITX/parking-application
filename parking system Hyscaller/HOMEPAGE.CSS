@@ -1,0 +1,294 @@
+.background-icon{
+    position: absolute;
+    width: 100%;
+    height: 71px;
+    right: 0px;
+    top: 0px;
+    
+    background: #99FFEA;
+    }
+    .image-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height: 71px;
+    }
+    .image-icon {
+      top: 77px;
+      border-radius: 2px;
+      height: 410px;
+      opacity: 40%;
+      object-fit: cover;
+    }
+    .textbox2-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: var(--br-3xl);
+      background-color: var(--color-dodgerblue);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+      width: 100%;
+      height: 327px;
+      opacity: 0.4;
+    }
+    .time-saving-solution {
+      margin: 0;
+    }
+    .say-goodbye-to {
+      margin: 0;
+      font-weight: 300;
+    }
+    .time-saving-solution-say-container {
+      position: absolute;
+      top: 54px;
+      left: 36px;
+      display: inline-block;
+      width: 315px;
+      height: 220px;
+    }
+    .textbox2 {
+      position: absolute;
+      top: 496px;
+      left: 507px;
+      width: 410px;
+      height: 327px;
+      font-size: var(--font-size-xl);
+    }
+    .affordable-and-cost-effective-container {
+      position: absolute;
+      top: 54px;
+      left: 37px;
+      display: inline-block;
+      width: 315px;
+      height: 220px;
+    }
+    .textbox3 {
+      position: absolute;
+      top: 496px;
+      left: 947px;
+      width: 410px;
+      height: 327px;
+      
+      font-size: var(--font-size-xl);
+    }
+    
+    .book-a-parking {
+      position: absolute;
+      top: calc(50% - 13px);
+      left: calc(50% - 74px);
+      font-weight: 800;
+      display: inline-block;
+      width: 154px;
+      height: 26px;
+    }
+    .button-book-a-spot {
+      position: absolute;
+      top: 172px;
+      right: 28px;
+      width: 170px;
+      height: 44px;
+      color: var(--color-white);
+    }
+    .register-now {
+      position: absolute;
+      top: 10px;
+      left: calc(50% - 58px);
+      font-weight: 800;
+      display: inline-block;
+      width: 138px;
+      height: 26px;
+    }
+    .button-register {
+      position: absolute;
+      top: 115px;
+      right: 28px;
+      width: 170px;
+      height: 44px;
+      color: var(--color-white);
+    }
+    .bookings,
+    .addvehicle,
+    .parkingspots,
+    .service-provides {
+      position: absolute;
+      top: 28px;
+      left: 167px;
+      display: inline-block;
+      font-weight: 900;
+      width: 71px;
+      height: 19px;
+    }
+    
+    .addvehicle,
+    .parkingspots,
+    .service-provides {
+      left: 262px;
+      width: fit-content;
+    }
+    .addvehicle,
+    .service-provides {
+      left: 387px;
+    }
+    .service-provides {
+      top: 29px;
+      left: 488px;
+      width: 123px;
+      height: 16px;
+    }
+    .standard-collection-23 {
+      position: absolute;
+      height: 6.01%;
+      width: 6.94%;
+      top: 1.2%;
+      right: 91.73%;
+      bottom: 92.79%;
+      left: 1.33%;
+      max-width: 100%;
+      overflow: hidden;
+      max-height: 100%;
+    }
+    .button-login-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #fff799;
+      width: 75px;
+      height: 71px;
+    }
+    .login {
+      position: absolute;
+      top: 29px;
+      left: 14.82px;
+      display: inline-block;
+      font-weight: 800;
+      width: 40.79px;
+      height: 17px;
+    }
+    .button-login {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      width: 70px;
+      height: 71px;
+      color: var(--color-white);
+    }
+    .about-us {
+      position: absolute;
+      top: 709.35px;
+      left: 18px;
+      font-size: 24px;
+      display: inline-block;
+      width: 148.35px;
+      height: 28.78px;
+      transform: rotate(-90deg);
+      transform-origin: 0 0;
+    }
+    .textbox1 {
+      position: absolute;
+      top: 496px;
+      left: 67px;
+      width: 410px;
+      height: 327px;
+      font-size: var(--font-size-xl);
+    }
+    .macbook-air-1 {
+      position: relative;
+      background-color: var(--color-white);
+      width: 100%;
+      height: 832px;
+      overflow: hidden;
+      text-align: left;
+      font-size: var(--font-size-xs);
+      color: var(--color-black);
+      font-family: var(--font-inter);
+    }
+    
+    
+    
+    
+    a {
+      background-image: linear-gradient(
+        to right,
+        #0A4D68,
+        #088395 50%,
+        #000 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      
+      padding: 10px 10PX;
+      position: relative;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    a:before{
+      content: '';
+      background: #05BFDB;
+      display: block;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 3px;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    a:hover {
+     background-position: 0;
+    }
+    
+    a:hover::before{
+      width: 100%;
+    }
+    
+    /* Presentational Styles */
+    .book:hover,
+    .book:focus,
+    .REGISTER:hover,
+    .REGISTER:focus {
+      box-shadow: #088395;
+      transform: translateY(-0.25em);
+    }
+    button {  
+      color: #020202;
+      transition: 0.25s;
+      
+      &:hover,
+      &:focus { 
+        border-color:#DD58D6 ;
+        color: #DD58D6;
+      }
+    }
+    button {
+      
+      background: none;
+      border: 2px solid;
+      font: inherit;
+      line-height: 1;
+      margin: 5px;
+      
+      padding: 10px 5px;
+      
+    }
+    .book,
+    .REGISTER{
+      position: relative;
+      right: 0;
+      
+      
+    }
+    .centered {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 25px;
+      color: #000000;
+      font-style:inherit;
+    }
+    .user{
+        left: 700px;
+    }

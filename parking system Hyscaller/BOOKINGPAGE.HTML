@@ -1,0 +1,39 @@
+<html>
+<body>
+<link rel="stylesheet" type="text/css" href="BOOKINGPAGE.CSS">
+
+
+<script type="module" src="BOOKINGPAGE.JS"></script>
+<div class="column">
+<div class="container">
+<h3 id="name">NAME</h3>
+<p><strong id="phn">Phone Number: </strong></p>
+<p><strong id="adr">address: </strong></p>
+<p><strong id="pin">pin: </strong></p>
+<p><strong id="cph">charge per hour</strong></p>
+<p><strong id="slot1">Slot available for twowheeler: </strong></p>
+<p><strong id="slot2">Slot available for fourwheeler: </strong></p>
+<p id="map"></p>
+</div>
+<div class="container">
+    <label for="ParkingTime">Parking Time:</label>
+    <input type="datetime-local" id="dt" name="daytime">
+    <br></br>
+    <label for="days">For Days:</label>
+    <input type="number" id="days" name="quantity" min="0" max="15">
+    <br></br>
+    <label for="hours">For hours:</label>
+    <input type="number" id="hour" name="hour" min="1" max="24">
+    <br></br>
+    <select class="custom-select" id="choosevehicle"></select>
+    <button id="count">Count</button>
+    <br></br>
+    <p><strong id="tc">Total Charge: </strong></p>
+    <button id="book">Book now</button>
+    <br></br>
+</div>
+
+
+</div>
+</body>
+</html>

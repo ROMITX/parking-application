@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parking Application - Login</title>
+  <link rel="stylesheet" type="text/css" href="LOGINSTYLE.css">
+</head>
+<body>
+ 
+  <div class="container">
+    <h2>Login</h2>
+    <form name="login_form" id="login_form" method="post" action="#" enctype="multipart/form-data" >
+      <div class="col-sm-4">
+        <div class="form-group">
+            <label for="email">Email</label>
+          <input type="text" name="login_email" id="login_email" class="form-control" placeholder="Enter your email">
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password</label>
+          <input type="password" name="login_password" id="login_password" class="form-control"  placeholder="Enter your password">
+        </div>
+        <button type="button" id="login" name="login" class="btn btn-success">Login</button>
+    <div class="social-login">
+      <!-- <p>Or login with:</p>
+      <button id="googleLogin">Login with Google</button> -->
+    </div>
+    <p>Don't have an account? <a href="REGISTERPAGE.HTML">Register</a></p>
+  </div>
+
+  <script type="module" src="LOGINPAGE.JS"></script>
+</body>
+</html>

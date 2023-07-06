@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<link rel="stylesheet" type="text/css" href="ADDVEHICLE.CSS">
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registerForm">
+          
+          <label for="vehicleType">Vehicle Type:</label>
+          <select id="vehicleType" name="vehicleType" class="custom-select">
+            <option value="2-wheeler">2 Wheeler</option>
+            <option value="4-wheeler">4 Wheeler</option>
+          </select><br>
+          <label for="vehiclecatgory">Vehicle Catagory:</label>
+            <select id="vehiclecatgory" name="vehiclecatgory" class="custom-select">
+            <option value="Motorcycle">Motorcycle</option>
+            <option value="Scooty">Scooty</option>
+            <option value="Car">Car</option>
+            <option value="Bus">Bus</option>
+            <option value="Truck">Truck</option>
+            <option value="Moped">Moped</option>
+            <option value="Pickup">Pickup Truck</option>
+          </select><br>
+          <div id="additionalFields" style="display: none;">
+            <label for="fourWheelerType">Four Wheeler Type:</label>
+            <input type="text" id="fourWheelerType" name="fourWheelerType" required><br>
+          </div>
+    
+          <label for="registrationNumber">Registration Number:</label>
+          <input type="text" id="registrationNumber" name="registrationNumber" required><br>
+    
+          <label for="insuranceNumber">Insurance Number:</label>
+          <input type="text" id="insuranceNumber" name="insuranceNumber" required><br>
+    
+          <label for="vehicleModel">Vehicle Model Name:</label>
+          <input type="text" id="vehicleModel" name="vehicleModel" required><br>
+    <button type="button" name="clickbutton" id="clickbuttons" class="btn btn-success">ADDVEHICLE</button>
+<script type="module" src="ADDVEHICLE.JS"></script>
+</body>
+</html>
